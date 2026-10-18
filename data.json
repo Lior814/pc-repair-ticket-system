@@ -1,0 +1,657 @@
+﻿{
+    "orders":  [
+                   {
+                       "id":  "id-mve0g13l-7o826cu",
+                       "orderNo":  "WO20261018-002",
+                       "createdAt":  "2026-10-18T15:58:56.913Z",
+                       "status":  "pending",
+                       "statusHistory":  [
+                                             {
+                                                 "from":  null,
+                                                 "to":  "pending",
+                                                 "at":  "2026-10-18T15:58:56.913Z",
+                                                 "note":  "创建工单"
+                                             }
+                                         ],
+                       "closedAt":  null,
+                       "customerName":  "云端验收",
+                       "phone":  "13800001234",
+                       "address":  "",
+                       "deviceBrand":  "测试品牌",
+                       "deviceModel":  "",
+                       "serialNo":  "",
+                       "purchaseDate":  "",
+                       "warrantyMonths":  24,
+                       "warrantyStatus":  "in",
+                       "faultCategory":  "hardware",
+                       "priority":  "medium",
+                       "serviceType":  "paid",
+                       "faultDesc":  "测试故障描述",
+                       "diagnosis":  "",
+                       "repairActions":  "",
+                       "laborCost":  0,
+                       "remark":  "",
+                       "partsUsed":  [
+
+                                     ],
+                       "partsCost":  0,
+                       "totalCost":  0,
+                       "updatedAt":  "2026-10-18T15:58:56.913Z",
+                       "customerId":  "id-mve0g13m-3f3aqg6"
+                   },
+                   {
+                       "id":  "o_001",
+                       "orderNo":  "WO20261018-001",
+                       "customerId":  "c_006",
+                       "customerName":  "刘洋",
+                       "phone":  "13400006666",
+                       "address":  "昌平区回龙观龙腾苑 6 区",
+                       "deviceBrand":  "联想",
+                       "deviceModel":  "小新 Pro 14",
+                       "serialNo":  "SN8X3K2A1",
+                       "purchaseDate":  "2026-04-01",
+                       "warrantyMonths":  24,
+                       "warrantyStatus":  "in",
+                       "faultDesc":  "开机黑屏，电源指示灯亮，风扇转",
+                       "faultCategory":  "hardware",
+                       "priority":  "urgent",
+                       "serviceType":  "warranty_free",
+                       "status":  "accepted",
+                       "diagnosis":  "",
+                       "repairActions":  "",
+                       "partsUsed":  [
+
+                                     ],
+                       "laborCost":  0,
+                       "partsCost":  0,
+                       "totalCost":  0,
+                       "createdAt":  "2026-10-18T01:12:00.000Z",
+                       "updatedAt":  "2026-10-18T15:58:10.194Z",
+                       "closedAt":  null,
+                       "statusHistory":  [
+                                             {
+                                                 "from":  null,
+                                                 "to":  "pending",
+                                                 "at":  "2026-10-18T01:12:00.000Z",
+                                                 "note":  "客户送修"
+                                             },
+                                             {
+                                                 "from":  "pending",
+                                                 "to":  "accepted",
+                                                 "at":  "2026-10-18T15:58:10.194Z",
+                                                 "note":  ""
+                                             }
+                                         ],
+                       "remark":  "客户表示电脑内有重要资料，需优先处理"
+                   },
+                   {
+                       "id":  "o_002",
+                       "orderNo":  "WO20261017-002",
+                       "customerId":  "c_005",
+                       "customerName":  "陈杰",
+                       "phone":  "13500005555",
+                       "address":  "丰台区科技园航丰路 8 号",
+                       "deviceBrand":  "华硕",
+                       "deviceModel":  "天选 4",
+                       "serialNo":  "SN7Y2J9B3",
+                       "purchaseDate":  "2024-08-09",
+                       "warrantyMonths":  24,
+                       "warrantyStatus":  "expired",
+                       "faultDesc":  "玩游戏十分钟自动关机，疑似过热",
+                       "faultCategory":  "hardware",
+                       "priority":  "high",
+                       "serviceType":  "paid",
+                       "status":  "repairing",
+                       "diagnosis":  "散热硅脂干涸，风扇积灰严重",
+                       "repairActions":  "拆机清灰，更换硅脂与散热风扇",
+                       "partsUsed":  [
+                                         {
+                                             "partId":  "p_006",
+                                             "name":  "散热风扇",
+                                             "qty":  1,
+                                             "unitPrice":  89
+                                         }
+                                     ],
+                       "laborCost":  80,
+                       "partsCost":  89,
+                       "totalCost":  169,
+                       "createdAt":  "2026-10-17T06:30:00.000Z",
+                       "updatedAt":  "2026-10-18T02:05:00.000Z",
+                       "closedAt":  null,
+                       "statusHistory":  [
+                                             {
+                                                 "from":  null,
+                                                 "to":  "pending",
+                                                 "at":  "2026-10-17T06:30:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "pending",
+                                                 "to":  "accepted",
+                                                 "at":  "2026-10-17T07:02:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "accepted",
+                                                 "to":  "repairing",
+                                                 "at":  "2026-10-18T02:05:00.000Z",
+                                                 "note":  "已开始拆机检测"
+                                             }
+                                         ],
+                       "remark":  ""
+                   },
+                   {
+                       "id":  "o_003",
+                       "orderNo":  "WO20261016-001",
+                       "customerId":  "c_004",
+                       "customerName":  "赵敏",
+                       "phone":  "13600004444",
+                       "address":  "东城区东直门南大街 9 号",
+                       "deviceBrand":  "苹果",
+                       "deviceModel":  "MacBook Air M2",
+                       "serialNo":  "SN5T8K1C9",
+                       "purchaseDate":  "2026-07-10",
+                       "warrantyMonths":  12,
+                       "warrantyStatus":  "in",
+                       "faultDesc":  "屏幕出现竖线，时好时坏",
+                       "faultCategory":  "hardware",
+                       "priority":  "medium",
+                       "serviceType":  "warranty_free",
+                       "status":  "waiting_parts",
+                       "diagnosis":  "屏幕排线故障，需更换屏幕总成",
+                       "repairActions":  "",
+                       "partsUsed":  [
+                                         {
+                                             "partId":  "p_007",
+                                             "name":  "13.3 寸液晶屏",
+                                             "qty":  1,
+                                             "unitPrice":  680
+                                         }
+                                     ],
+                       "laborCost":  0,
+                       "partsCost":  680,
+                       "totalCost":  0,
+                       "createdAt":  "2026-10-16T03:20:00.000Z",
+                       "updatedAt":  "2026-10-17T08:40:00.000Z",
+                       "closedAt":  null,
+                       "statusHistory":  [
+                                             {
+                                                 "from":  null,
+                                                 "to":  "pending",
+                                                 "at":  "2026-10-16T03:20:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "pending",
+                                                 "to":  "accepted",
+                                                 "at":  "2026-10-16T05:05:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "accepted",
+                                                 "to":  "repairing",
+                                                 "at":  "2026-10-16T07:00:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "repairing",
+                                                 "to":  "waiting_parts",
+                                                 "at":  "2026-10-17T08:40:00.000Z",
+                                                 "note":  "屏幕总成缺货，已下单采购"
+                                             }
+                                         ],
+                       "remark":  "保内免费换屏"
+                   },
+                   {
+                       "id":  "o_004",
+                       "orderNo":  "WO20261014-001",
+                       "customerId":  "c_003",
+                       "customerName":  "王强",
+                       "phone":  "13700003333",
+                       "address":  "西城区金融街丰汇园 11 号楼",
+                       "deviceBrand":  "戴尔",
+                       "deviceModel":  "XPS 13",
+                       "serialNo":  "SN3M5L7D2",
+                       "purchaseDate":  "2025-09-13",
+                       "warrantyMonths":  24,
+                       "warrantyStatus":  "in",
+                       "faultDesc":  "系统频繁蓝屏，办公文档无法保存",
+                       "faultCategory":  "software",
+                       "priority":  "medium",
+                       "serviceType":  "warranty_free",
+                       "status":  "qc",
+                       "diagnosis":  "系统文件损坏 + 内存条接触不良",
+                       "repairActions":  "重装系统，重插内存条并除尘",
+                       "partsUsed":  [
+
+                                     ],
+                       "laborCost":  0,
+                       "partsCost":  0,
+                       "totalCost":  0,
+                       "createdAt":  "2026-10-14T02:00:00.000Z",
+                       "updatedAt":  "2026-10-17T01:30:00.000Z",
+                       "closedAt":  null,
+                       "statusHistory":  [
+                                             {
+                                                 "from":  null,
+                                                 "to":  "pending",
+                                                 "at":  "2026-10-14T02:00:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "pending",
+                                                 "to":  "accepted",
+                                                 "at":  "2026-10-14T02:30:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "accepted",
+                                                 "to":  "repairing",
+                                                 "at":  "2026-10-15T01:00:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "repairing",
+                                                 "to":  "qc",
+                                                 "at":  "2026-10-17T01:30:00.000Z",
+                                                 "note":  "维修完成，待质检拷机"
+                                             }
+                                         ],
+                       "remark":  "公司批量维护客户，注意数据备份"
+                   },
+                   {
+                       "id":  "o_005",
+                       "orderNo":  "WO20261012-001",
+                       "customerId":  "c_002",
+                       "customerName":  "李娜",
+                       "phone":  "13900002222",
+                       "address":  "朝阳区望京 SOHO T3-1208",
+                       "deviceBrand":  "惠普",
+                       "deviceModel":  "战 66 五代",
+                       "serialNo":  "SN9P4Q6E8",
+                       "purchaseDate":  "2023-10-14",
+                       "warrantyMonths":  12,
+                       "warrantyStatus":  "expired",
+                       "faultDesc":  "电池不充电，续航不足半小时",
+                       "faultCategory":  "hardware",
+                       "priority":  "low",
+                       "serviceType":  "paid",
+                       "status":  "finished",
+                       "diagnosis":  "电池鼓包老化",
+                       "repairActions":  "更换全新电池，检测充电电路正常",
+                       "partsUsed":  [
+                                         {
+                                             "partId":  "p_005",
+                                             "name":  "笔记本电池（通用型）",
+                                             "qty":  1,
+                                             "unitPrice":  289
+                                         }
+                                     ],
+                       "laborCost":  50,
+                       "partsCost":  289,
+                       "totalCost":  339,
+                       "createdAt":  "2026-10-12T07:40:00.000Z",
+                       "updatedAt":  "2026-10-16T06:10:00.000Z",
+                       "closedAt":  null,
+                       "statusHistory":  [
+                                             {
+                                                 "from":  null,
+                                                 "to":  "pending",
+                                                 "at":  "2026-10-12T07:40:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "pending",
+                                                 "to":  "accepted",
+                                                 "at":  "2026-10-12T08:00:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "accepted",
+                                                 "to":  "repairing",
+                                                 "at":  "2026-10-13T02:00:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "repairing",
+                                                 "to":  "qc",
+                                                 "at":  "2026-10-15T03:00:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "qc",
+                                                 "to":  "finished",
+                                                 "at":  "2026-10-16T06:10:00.000Z",
+                                                 "note":  "质检通过，通知客户取机"
+                                             }
+                                         ],
+                       "remark":  ""
+                   },
+                   {
+                       "id":  "o_006",
+                       "orderNo":  "WO20261009-001",
+                       "customerId":  "c_001",
+                       "customerName":  "张伟",
+                       "phone":  "13800001111",
+                       "address":  "海淀区中关村大街 27 号",
+                       "deviceBrand":  "联想",
+                       "deviceModel":  "拯救者 Y9000P",
+                       "serialNo":  "SN2R8T5F6",
+                       "purchaseDate":  "2026-08-19",
+                       "warrantyMonths":  24,
+                       "warrantyStatus":  "in",
+                       "faultDesc":  "升级内存与硬盘，提升性能",
+                       "faultCategory":  "other",
+                       "priority":  "low",
+                       "serviceType":  "upgrade",
+                       "status":  "closed",
+                       "diagnosis":  "客户要求硬件升级",
+                       "repairActions":  "加装 16G 内存与 1T 固态，迁移系统",
+                       "partsUsed":  [
+                                         {
+                                             "partId":  "p_002",
+                                             "name":  "DDR4 内存条 16G",
+                                             "qty":  1,
+                                             "unitPrice":  329
+                                         },
+                                         {
+                                             "partId":  "p_004",
+                                             "name":  "NVMe 固态硬盘 1T",
+                                             "qty":  1,
+                                             "unitPrice":  599
+                                         }
+                                     ],
+                       "laborCost":  100,
+                       "partsCost":  928,
+                       "totalCost":  1028,
+                       "createdAt":  "2026-10-09T02:20:00.000Z",
+                       "updatedAt":  "2026-10-11T08:00:00.000Z",
+                       "closedAt":  "2026-10-11T08:00:00.000Z",
+                       "statusHistory":  [
+                                             {
+                                                 "from":  null,
+                                                 "to":  "pending",
+                                                 "at":  "2026-10-09T02:20:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "pending",
+                                                 "to":  "accepted",
+                                                 "at":  "2026-10-09T02:40:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "accepted",
+                                                 "to":  "repairing",
+                                                 "at":  "2026-10-09T06:00:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "repairing",
+                                                 "to":  "qc",
+                                                 "at":  "2026-10-10T03:00:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "qc",
+                                                 "to":  "finished",
+                                                 "at":  "2026-10-10T07:30:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "finished",
+                                                 "to":  "closed",
+                                                 "at":  "2026-10-11T08:00:00.000Z",
+                                                 "note":  "客户已取机，满意"
+                                             }
+                                         ],
+                       "remark":  "升级服务已完成并收款"
+                   },
+                   {
+                       "id":  "o_007",
+                       "orderNo":  "WO20261006-001",
+                       "customerId":  "c_002",
+                       "customerName":  "李娜",
+                       "phone":  "13900002222",
+                       "address":  "朝阳区望京 SOHO T3-1208",
+                       "deviceBrand":  "小米",
+                       "deviceModel":  "RedmiBook Pro 15",
+                       "serialNo":  "SN6W3X8G1",
+                       "purchaseDate":  "2025-06-05",
+                       "warrantyMonths":  12,
+                       "warrantyStatus":  "expired",
+                       "faultDesc":  "WiFi 频繁断连，无法办公",
+                       "faultCategory":  "network",
+                       "priority":  "medium",
+                       "serviceType":  "paid",
+                       "status":  "closed",
+                       "diagnosis":  "无线网卡驱动冲突",
+                       "repairActions":  "更新驱动并重置网络模块，测试稳定",
+                       "partsUsed":  [
+
+                                     ],
+                       "laborCost":  60,
+                       "partsCost":  0,
+                       "totalCost":  60,
+                       "createdAt":  "2026-10-06T01:00:00.000Z",
+                       "updatedAt":  "2026-10-07T09:30:00.000Z",
+                       "closedAt":  "2026-10-07T09:30:00.000Z",
+                       "statusHistory":  [
+                                             {
+                                                 "from":  null,
+                                                 "to":  "pending",
+                                                 "at":  "2026-10-06T01:00:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "pending",
+                                                 "to":  "accepted",
+                                                 "at":  "2026-10-06T01:20:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "accepted",
+                                                 "to":  "repairing",
+                                                 "at":  "2026-10-06T02:00:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "repairing",
+                                                 "to":  "qc",
+                                                 "at":  "2026-10-07T06:00:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "qc",
+                                                 "to":  "finished",
+                                                 "at":  "2026-10-07T08:00:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "finished",
+                                                 "to":  "closed",
+                                                 "at":  "2026-10-07T09:30:00.000Z",
+                                                 "note":  "客户自取"
+                                             }
+                                         ],
+                       "remark":  ""
+                   },
+                   {
+                       "id":  "o_008",
+                       "orderNo":  "WO20261003-001",
+                       "customerId":  "c_003",
+                       "customerName":  "王强",
+                       "phone":  "13700003333",
+                       "address":  "西城区金融街丰汇园 11 号楼",
+                       "deviceBrand":  "微软",
+                       "deviceModel":  "Surface Pro 9",
+                       "serialNo":  "SN1V5B2H7",
+                       "purchaseDate":  "2025-12-22",
+                       "warrantyMonths":  12,
+                       "warrantyStatus":  "expired",
+                       "faultDesc":  "键盘部分按键失灵",
+                       "faultCategory":  "peripheral",
+                       "priority":  "high",
+                       "serviceType":  "paid",
+                       "status":  "cancelled",
+                       "diagnosis":  "",
+                       "repairActions":  "",
+                       "partsUsed":  [
+
+                                     ],
+                       "laborCost":  0,
+                       "partsCost":  0,
+                       "totalCost":  0,
+                       "createdAt":  "2026-10-03T05:10:00.000Z",
+                       "updatedAt":  "2026-10-04T02:00:00.000Z",
+                       "closedAt":  null,
+                       "statusHistory":  [
+                                             {
+                                                 "from":  null,
+                                                 "to":  "pending",
+                                                 "at":  "2026-10-03T05:10:00.000Z",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "from":  "pending",
+                                                 "to":  "cancelled",
+                                                 "at":  "2026-10-04T02:00:00.000Z",
+                                                 "note":  "客户决定直接购买新键盘，取消维修"
+                                             }
+                                         ],
+                       "remark":  ""
+                   }
+               ],
+    "customers":  [
+                      {
+                          "id":  "id-mve0g13m-3f3aqg6",
+                          "name":  "云端验收",
+                          "phone":  "13800001234",
+                          "address":  "",
+                          "remark":  "",
+                          "createdAt":  "2026-10-18T15:58:56.913Z"
+                      },
+                      {
+                          "id":  "c_001",
+                          "name":  "张伟",
+                          "phone":  "13800001111",
+                          "address":  "海淀区中关村大街 27 号",
+                          "remark":  "老客户",
+                          "createdAt":  "2026-06-20T02:00:00.000Z"
+                      },
+                      {
+                          "id":  "c_002",
+                          "name":  "李娜",
+                          "phone":  "13900002222",
+                          "address":  "朝阳区望京 SOHO T3-1208",
+                          "remark":  "",
+                          "createdAt":  "2026-07-20T06:00:00.000Z"
+                      },
+                      {
+                          "id":  "c_003",
+                          "name":  "王强",
+                          "phone":  "13700003333",
+                          "address":  "西城区金融街丰汇园 11 号楼",
+                          "remark":  "公司客户-星辰科技",
+                          "createdAt":  "2026-08-19T01:00:00.000Z"
+                      },
+                      {
+                          "id":  "c_004",
+                          "name":  "赵敏",
+                          "phone":  "13600004444",
+                          "address":  "东城区东直门南大街 9 号",
+                          "remark":  "",
+                          "createdAt":  "2026-09-03T08:00:00.000Z"
+                      },
+                      {
+                          "id":  "c_005",
+                          "name":  "陈杰",
+                          "phone":  "13500005555",
+                          "address":  "丰台区科技园航丰路 8 号",
+                          "remark":  "",
+                          "createdAt":  "2026-09-28T03:00:00.000Z"
+                      },
+                      {
+                          "id":  "c_006",
+                          "name":  "刘洋",
+                          "phone":  "13400006666",
+                          "address":  "昌平区回龙观龙腾苑 6 区",
+                          "remark":  "",
+                          "createdAt":  "2026-10-10T07:00:00.000Z"
+                      }
+                  ],
+    "parts":  [
+                  {
+                      "id":  "p_001",
+                      "name":  "DDR4 内存条 8G",
+                      "stock":  12,
+                      "unitPrice":  169,
+                      "remark":  "",
+                      "updatedAt":  "2026-10-13T02:00:00.000Z"
+                  },
+                  {
+                      "id":  "p_002",
+                      "name":  "DDR4 内存条 16G",
+                      "stock":  8,
+                      "unitPrice":  329,
+                      "remark":  "",
+                      "updatedAt":  "2026-10-13T02:00:00.000Z"
+                  },
+                  {
+                      "id":  "p_003",
+                      "name":  "NVMe 固态硬盘 512G",
+                      "stock":  6,
+                      "unitPrice":  359,
+                      "remark":  "",
+                      "updatedAt":  "2026-10-15T01:00:00.000Z"
+                  },
+                  {
+                      "id":  "p_004",
+                      "name":  "NVMe 固态硬盘 1T",
+                      "stock":  4,
+                      "unitPrice":  599,
+                      "remark":  "",
+                      "updatedAt":  "2026-10-15T01:00:00.000Z"
+                  },
+                  {
+                      "id":  "p_005",
+                      "name":  "笔记本电池（通用型）",
+                      "stock":  5,
+                      "unitPrice":  289,
+                      "remark":  "",
+                      "updatedAt":  "2026-10-12T06:00:00.000Z"
+                  },
+                  {
+                      "id":  "p_006",
+                      "name":  "散热风扇",
+                      "stock":  10,
+                      "unitPrice":  89,
+                      "remark":  "",
+                      "updatedAt":  "2026-10-16T08:00:00.000Z"
+                  },
+                  {
+                      "id":  "p_007",
+                      "name":  "13.3 寸液晶屏",
+                      "stock":  2,
+                      "unitPrice":  680,
+                      "remark":  "低库存注意补货",
+                      "updatedAt":  "2026-10-17T03:00:00.000Z"
+                  },
+                  {
+                      "id":  "p_008",
+                      "name":  "机械键盘轴体套装",
+                      "stock":  15,
+                      "unitPrice":  59,
+                      "remark":  "",
+                      "updatedAt":  "2026-10-14T05:00:00.000Z"
+                  }
+              ],
+    "settings":  {
+                     "dailySeqDate":  "20261018",
+                     "dailySeq":  2,
+                     "shopName":  "极速电脑维修中心",
+                     "warrantyDefaultMonths":  24,
+                     "inited":  true,
+                     "lastExportAt":  ""
+                 }
+}
