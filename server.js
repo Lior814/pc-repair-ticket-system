@@ -54,7 +54,25 @@ app.use((req, res, next) => {
 });
 
 /* ---------- 整体状态 ---------- */
-app.get('/api/state', (req, res) => res.json(state));
+app.get('/api/state', (req, res) => {
+  // 自愈：内存为空但磁盘数据文件有内容时，从磁盘重新加载
+  // （应对容器启动瞬间数据文件不可读、或免费平台休眠唤醒后状态异常的场景）
+  const empty = (!Array.isArray(state.orders) || state.orders.length === 0) &&
+    (!Array.isArray(state.customers) || state.customers.length === 0) &&
+    (!Array.isArray(state.parts) || state.parts.length === 0);
+  if (empty && fs.existsSync(DATA_FILE)) {
+    try {
+      const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
+      const hasData = data && ((data.orders && data.orders.length) ||
+        (data.customers && data.customers.length) || (data.parts && data.parts.length));
+      if (hasData) {
+        state = Object.assign({}, DEFAULT_STATE, data);
+        console.log('state reloaded from data.json');
+      }
+    } catch (e) { console.error('lazy reload error', e); }
+  }
+  res.json(state);
+});
 app.put('/api/state', (req, res) => {
   const body = req.body || {};
   state = {
